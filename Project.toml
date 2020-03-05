@@ -1,5 +1,5 @@
-name = "sarsop_jll"
-uuid = "55c239ea-a488-56cb-afaa-1eaf9ccf0106"
+name = "SARSOP_jll"
+uuid = "e478675d-f996-546e-baa1-da59d9de2062"
 version = "0.96.0+0"
 
 [deps]
