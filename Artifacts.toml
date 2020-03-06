@@ -1,96 +1,96 @@
 [[SARSOP]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "314f37823e797ed8d812603ada5667ee7a6804dc"
+git-tree-sha1 = "a80254cd43abc6d73a93c91eda659a2af99a87b1"
 os = "windows"
 
     [[SARSOP.download]]
-    sha256 = "0321e165fe252d497775074ad9611617c19be489ac0294fb89ee4f203f714174"
+    sha256 = "53eb44bf40f713b9b72b2a07b840d14d34f35c8564e12b0fb4605cbe827e55ca"
     url = "https://github.com/JuliaPOMDP/SARSOP_jll.jl/releases/download/SARSOP-v0.96.0+0/SARSOP.v0.96.0.i686-w64-mingw32-cxx11.tar.gz"
 [[SARSOP]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "b3d61c94842008729e03ecca1f1e88d13a9fbd0e"
+git-tree-sha1 = "00ed266b9903de59f7344a2eb59b008cc823b9b5"
 os = "windows"
 
     [[SARSOP.download]]
-    sha256 = "a4ad9eeaae6a8a2adfc4c14d3e074ce0c986697abfda7520b3d8649796899bd4"
+    sha256 = "8eb739bd9c1daafb0d1d8f1e588e5804c5b9a6fda1d32faf2deb01fe60fd6c65"
     url = "https://github.com/JuliaPOMDP/SARSOP_jll.jl/releases/download/SARSOP-v0.96.0+0/SARSOP.v0.96.0.x86_64-w64-mingw32-cxx03.tar.gz"
 [[SARSOP]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "cd900309869721efac347ec62f8c88c783ea8b51"
+git-tree-sha1 = "f2c607bed123fdf91438b378a23dcbe31511c7cc"
 os = "windows"
 
     [[SARSOP.download]]
-    sha256 = "ece188bb97db9e621bc631b8eb09643b8c740c17b5b291800f5df7e81b71ff65"
+    sha256 = "6360471e01bb9640c04c4a8f6a7bca3ba5e0f6027fbb1f5d38da1af7c3ac4ccc"
     url = "https://github.com/JuliaPOMDP/SARSOP_jll.jl/releases/download/SARSOP-v0.96.0+0/SARSOP.v0.96.0.x86_64-w64-mingw32-cxx11.tar.gz"
 [[SARSOP]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b96df79ad4b21d7ff1a43e329bdf1b3461d8f6be"
+git-tree-sha1 = "13b22994bc9d9a411103b1958863a44b3f370e69"
 libc = "glibc"
 os = "linux"
 
     [[SARSOP.download]]
-    sha256 = "2b82e0123c3a2a40fc44c7bdb1efabd8ed576b3c91748a29881138f434a63e1f"
+    sha256 = "8302b059d32b8b60cde0ad207a92e3aabc20b4cb07d98a6bc8f4c118cc0e3223"
     url = "https://github.com/JuliaPOMDP/SARSOP_jll.jl/releases/download/SARSOP-v0.96.0+0/SARSOP.v0.96.0.x86_64-linux-gnu-cxx11.tar.gz"
 [[SARSOP]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "0ff4e42d790597f1c4b85ae6342721b5eeda6ff0"
+git-tree-sha1 = "307e5263624b5ec9a80c72958f7382f666eadfe2"
 os = "macos"
 
     [[SARSOP.download]]
-    sha256 = "50f50c7078cf9ed28777be347dfd4b1482a6e599703b1fdafc299451278810b7"
+    sha256 = "3236985577c03ab18ae9822ccd512a9a773f2f61176c00e02b0468f92f12a566"
     url = "https://github.com/JuliaPOMDP/SARSOP_jll.jl/releases/download/SARSOP-v0.96.0+0/SARSOP.v0.96.0.x86_64-apple-darwin14-cxx11.tar.gz"
 [[SARSOP]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "591c66bfff6299fc6e280e191cd4a8cf2a3729e7"
+git-tree-sha1 = "1bcc22838eb1885607c8a9b1a04230a76298a020"
 libc = "glibc"
 os = "linux"
 
     [[SARSOP.download]]
-    sha256 = "b5713347f456401b5dc530cb4010849ed402d8d923e78bbfc03a5ee724d558cf"
+    sha256 = "aab8cbe1079dfb235a994e5cef014d9699e2d9e5860bb0296dd0601e4c775f78"
     url = "https://github.com/JuliaPOMDP/SARSOP_jll.jl/releases/download/SARSOP-v0.96.0+0/SARSOP.v0.96.0.i686-linux-gnu-cxx11.tar.gz"
 [[SARSOP]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "3ec43d4ec503b1c993eb28e2324a184a73028a4f"
+git-tree-sha1 = "d9cd080473765fff695d108866864c569d7d3845"
 os = "macos"
 
     [[SARSOP.download]]
-    sha256 = "77b71422cdc88145f0bfda0234fb92b36c7d7b16d74ca671c7fe8f0241919deb"
+    sha256 = "7fbf11d883066a40961ff90466e345bf01e0f18c967557b5fd955123a3af2a6d"
     url = "https://github.com/JuliaPOMDP/SARSOP_jll.jl/releases/download/SARSOP-v0.96.0+0/SARSOP.v0.96.0.x86_64-apple-darwin14-cxx03.tar.gz"
 [[SARSOP]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "0f9312230dd8588ea630c3cc540a99d066a56bf6"
+git-tree-sha1 = "a6802b86f20c6ba354819575024d3c98a3748078"
 os = "windows"
 
     [[SARSOP.download]]
-    sha256 = "630aaebc9d5fec574a80246d152e6cb027fb2a8f23ce6930a9801ed5a330fb92"
+    sha256 = "8cc9d00204b36ddb284678030f17de17467776518853c28de9354e7c0cdb2f22"
     url = "https://github.com/JuliaPOMDP/SARSOP_jll.jl/releases/download/SARSOP-v0.96.0+0/SARSOP.v0.96.0.i686-w64-mingw32-cxx03.tar.gz"
 [[SARSOP]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "301ff20ef7ff4d9f4d107230a42d52e55c83a40c"
+git-tree-sha1 = "2fae4b7b918163e544bfeda2bc460f574fd4c732"
 libc = "glibc"
 os = "linux"
 
     [[SARSOP.download]]
-    sha256 = "10ef5e4a6da9553383651a47179e924eadf4d6b21b5a7d171f3a76d8b2b9fc7d"
+    sha256 = "cee30628d3cfe3a568ba8244a68186f7e56fe4e0aed3aa731e3518416fa75bdf"
     url = "https://github.com/JuliaPOMDP/SARSOP_jll.jl/releases/download/SARSOP-v0.96.0+0/SARSOP.v0.96.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[SARSOP]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "70ae68ccf315b52df14960e0de8664727cad435c"
+git-tree-sha1 = "779e1a08567111f8f9442bb4dd6c2993772e46df"
 libc = "glibc"
 os = "linux"
 
     [[SARSOP.download]]
-    sha256 = "390d0eb4b880f66ff80b441b8bfb0636c8b2df3ff9045a617f14ba2110bebce9"
+    sha256 = "0c66cea1a35eb5c990db7e8acbaf4f114c1d7e54c970ea8b7237bbd6f4d3f0c4"
     url = "https://github.com/JuliaPOMDP/SARSOP_jll.jl/releases/download/SARSOP-v0.96.0+0/SARSOP.v0.96.0.i686-linux-gnu-cxx03.tar.gz"
 
 [[sarsop]]
