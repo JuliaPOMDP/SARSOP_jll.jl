@@ -7,8 +7,8 @@ version = v"0.96.1"
 
 # Collection of sources required to complete build
 sources = [
-    GitSource("https://github.com/dylan-asmar/sarsop",
-    "6e33d06214309500d7752885ae8059fe027c4334")
+    GitSource("https://github.com/JuliaPOMDP/sarsop",
+    "4c0fd7022b227a58c07558d487f717374884dc32")
 ]
 
 # Bash recipe for building across all platforms

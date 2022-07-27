@@ -1,6 +1,6 @@
 name = "SARSOP_jll"
 uuid = "e478675d-f996-546e-baa1-da59d9de2062"
-version = "0.96.0+0"
+version = "0.96.1"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
