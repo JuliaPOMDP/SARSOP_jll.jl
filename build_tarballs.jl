@@ -3,11 +3,12 @@
 using BinaryBuilder, Pkg
 
 name = "SARSOP"
-version = v"0.96.0"
+version = v"0.96.1"
 
 # Collection of sources required to complete build
 sources = [
-    GitSource("https://github.com/JuliaPOMDP/sarsop.git", "903fa55df637d127c1068700377995ee395475a6")
+    GitSource("https://github.com/dylan-asmar/sarsop",
+    "6e33d06214309500d7752885ae8059fe027c4334")
 ]
 
 # Bash recipe for building across all platforms
@@ -29,12 +30,12 @@ exit
 # These are the platforms we will build for by default, unless further
 # platforms are passed in on the command line
 platforms = [
-    Linux(:i686, libc=:glibc),
-    Linux(:x86_64, libc=:glibc),
-    MacOS(:x86_64),
-    MacOS(:aarch64),
-    Windows(:i686),
-    Windows(:x86_64)
+    Platform("i686", "linux"; libc="glibc"),
+    Platform("x86_64", "linux"; libc="glibc"),
+    Platform("x86_64", "windows"),
+    Platform("i686", "windows"),
+    Platform("x86_64", "macos"),
+    Platform("aarch64", "macos")
 ]
 platforms = expand_cxxstring_abis(platforms)
 
@@ -53,4 +54,7 @@ dependencies = Dependency[
 ]
 
 # Build the tarballs, and possibly a `build.jl` as well.
-build_tarballs(ARGS, name, version, sources, script, platforms, products, dependencies)
+build_tarballs(
+    ARGS, name, version, sources, script, platforms, products, dependencies;
+    julia_compat="1.6"
+)
